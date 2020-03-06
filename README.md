@@ -1,5 +1,5 @@
 # Tibia Training Weapon CountDown Alarm
-### Tool link: https://darknightbeat.github.io/tibiatool/
+## Tool link: https://darknightbeat.github.io/tibiatool/
 
 Its just a simple alarm so you can so other stuff while you use training weapons.
 
