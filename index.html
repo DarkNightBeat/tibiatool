@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tibia Training Weapon Cowntdown</title>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135975814-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-135975814-1');
+</script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-8739738069454406",
+    enable_page_level_ads: true
+  });
+</script>
+
+	<link rel="shortcut icon" type="image/png" href="favicon.png">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>	
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+	<meta name="description" content="Tibia exercise weapons countdown alarm. Easy Tibia exercise weapons alarm setup.">
+</head>
+<body>
+
+	<div class="header">
+		<div class="one"></div>
+		<div class="two">TRAINING WEAPON COUNTDOWN TIMER</div>
+		<div class="three"></div>
+	</div>
+
+	<div class="container">
+		<div class="subc">
+			<div id="trc" class="label">
+			Training Weapon	Charges
+			</div>
+			<input id="tr" class="inp" type="number" value="500" min="1" max="500">
+
+			<div class="label">
+				Alert me when charges are under "X"	amount.
+			</div>
+			<input id="falt" class="inp" type="number" value="10" min="1" max="500">
+			
+			<h3 id="tw">Charges Left!</h3>
+			<h3 id="num"></h3>
+			<audio id="audioalert" loop>
+			  <!--<source src="s.mp3" type="audio/mpeg">-->
+			  <source src="s2.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+		<div class="start" onclick="start()">START</div>
+	</div>
+
+
+
+	<div class="tibia">All images Image by <a href="https://www.tibia.com/forum/?action=announcement&announcementid=87&boardid=89516">Cipsoft</a></div>
+	<script src="js/script.min.js"></script>
+</body>
+</html> 
