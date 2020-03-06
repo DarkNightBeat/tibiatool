@@ -9,10 +9,10 @@ Just set the amount of charges you have on your weapon and when under what amoun
 ## Donate link https://paypal.me/darknightbeat
 ## or donate TC if you whant to support me
 
-'''
-Name: Darknightbeat
-World: Celesta
-'''
+
+# Name: Darknightbeat
+# World: Celesta
+
 
 ### Btw its free so you don't need to donate if you dont want to.
 
